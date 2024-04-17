@@ -1,0 +1,26 @@
+@keyframes addPaddingRemovePadding {
+    from {
+        padding: 0;
+        transition: ease 0.2s;
+    }
+
+    to {
+        padding: 0.4rem;
+    }
+}
+
+#destinationCard{
+    #cardImage {
+        transition: ease 0.5s;
+    }
+}
+
+#destinationCard:hover{
+    #cardImage {
+        animation-duration: 0.8s;
+        animation-name: addPaddingRemovePadding;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+}

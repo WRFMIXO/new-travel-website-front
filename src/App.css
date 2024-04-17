@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+.appLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5); /* Ajoute un fond semi-transparent pour le contraste */
+}
+
+/*Spinner*/
+.spinner-div{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.contactFormCard {
+  padding: 2rem;
+  border: none;
+  background: #333;
+}
